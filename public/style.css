@@ -1,0 +1,14 @@
+@import 'scss/style';
+@import 'scss/colors';
+@import 'scss/mixins';
+
+.wrapper {
+	background-color: #FA715E;
+	margin: auto 0px;
+	width: auto;
+	height: 75%;
+}
+
+.headshot {
+	width: 
+}

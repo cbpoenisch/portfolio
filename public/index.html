@@ -7,19 +7,18 @@
 	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-cyan.min.css" /> 
 </head>
 <body>
 	<header>
 		<h1>Crystal Poenisch</h1>
 <!-- Right aligned menu below button -->
-		<button id="demo-menu-lower-right"
+		<button id="menu-lower-right"
 		        class="mdl-button mdl-js-button mdl-button--icon">
 		  <i class="material-icons">more_vert</i>
 		</button>
 
 		<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-		    for="demo-menu-lower-right">
+		    for="menu-lower-right">
 		  <li class="mdl-menu__item">Home</li>
 		  <li class="mdl-menu__item">Art</li>
 		  <li disabled class="mdl-menu__item">Photography</li>
@@ -28,10 +27,27 @@
 		</ul>
 	</header>
 
-	<div>
+	<div class="wrapper">
+
+		<div class="mdl-card">
+		  <div class="mdl-card__title">
+		    <h2 class="mdl-card__title-text">Hi, I'm Crystal.</h2>
+		  </div>
+		  <div class="mdl-card__media">
+		 <!-- remember to change this to angular later -->
+			<img src="images/headshot.jpg" alt="Crystal's Face" class="headshot" width="220" height="140" border="0" alt="" style="padding:20px;">
+		  </div>
+		  <div class="mdl-card__supporting-text">
+		    This text might describe the photo and provide further information, such as where and
+		    when it was taken.
+		  </div>
+		  <div class="mdl-card__actions">
+		    <a href="(URL or function)">Related Action</a>
+		  </div>
+		</div>
+
 		<section>
-			<!-- remember to change this to angular later -->
-			<img src="images/headshot.jpg" alt="Crystal's Face">
+			
 		</section>
 		<nav>
 			<ul>

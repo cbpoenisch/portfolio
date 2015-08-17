@@ -2,5 +2,8 @@
 @import 'scss/colors';
 @import 'scss/mixins';
 
+.wrapper {
+	background-color: ##FA715E;
+}
 
 
