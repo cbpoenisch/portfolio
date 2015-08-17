@@ -2,14 +2,20 @@
 @import 'scss/colors';
 @import 'scss/mixins';
 
+html {
+	font-family: 'Marck Script', cursive;
+}
+
 .wrapper {
 	background-color: #FA715E;
 	margin: auto 0px;
 	width: auto;
 	height: 75%;
+	text-align: center;
 }
 
 .headshot {
-	width:30%;
+	width: 20%;
 	height: auto;
 }
+
