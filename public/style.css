@@ -3,12 +3,12 @@
 @import 'scss/mixins';
 
 html {
-	font-family: 'Marck Script', cursive;
+	font-family: 'Choplin', cursive;
 }
 
 .wrapper {
 	background-color: #FA715E;
-	margin: auto 0px;
+	margin: 3%;
 	width: auto;
 	height: 75%;
 	text-align: center;
